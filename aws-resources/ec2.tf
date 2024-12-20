@@ -23,7 +23,7 @@ resource "aws_instance" "instance_2" {
   subnet_id = aws_subnet.main.id  # Add subnet id
 
   tags = {
-    Name = "Instance-2-Web-Server"
+    Name = "Instance-2-Web-Server" 
   }
 }
 
