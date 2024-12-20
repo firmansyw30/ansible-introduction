@@ -1,0 +1,6 @@
+all:
+  hosts:
+    instance2: # The host name in playbook
+      ansible_host: <ip-address> # Change to actual IP address from EC2 Instance
+      ansible_user: ubuntu # Based on default user in EC2, change to actual user
+      ansible_ssh_private_key_file: ~/.ssh/sample-key-pair-firman.pem # Make sure this keypair exist on control node instance for ansible

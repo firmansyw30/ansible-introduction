@@ -1,0 +1,5 @@
+.env
+.terraform
+aws-resources/.terraform.lock.hcl
+aws-resources/terraform.tfstate.backup
+aws-resources/terraform.tfstate
